@@ -38,7 +38,7 @@ jobs:
       # Langkah 5: Menyimpan hasil (dataset terbaru)
       # Path ini sudah benar (sesuai output script automate_Reksi.py)
       - name: Upload processed artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: processed-wine-dataset
           path: preprocessing/winequality_preprocessing/
